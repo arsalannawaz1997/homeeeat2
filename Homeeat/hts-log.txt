@@ -1,0 +1,37 @@
+HTTrack3.49-2 launched on Sat, 25 Apr 2020 17:07:05 at http://homeeat.herokuapp.com +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w http://homeeat.herokuapp.com -O "/home/ultr4/websites/Homeeat" -n -%P -p7 -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+17:10:04	Warning: 	Retry after error 500 (Internal Server Error) at link homeeat.herokuapp.com/5e1c3dabe1f8d30017d5eabc (from homeeat.herokuapp.com/)
+17:10:06	Warning: 	Retry after error 500 () at link homeeat.herokuapp.com/5e1c3dabe1f8d30017d5eabc (from homeeat.herokuapp.com/)
+17:10:06	Error: 	"" (500) after 2 retries at link homeeat.herokuapp.com/5e1c3dabe1f8d30017d5eabc (from homeeat.herokuapp.com/)
+17:10:08	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js
+17:10:12	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): homeeat.herokuapp.com/restaurants.pug
+17:11:10	Error: 	"Not Found" (404) at link homeeat.herokuapp.com/www.google.com/recaptcha/api.js (from homeeat.herokuapp.com/)
+17:11:10	Warning: 	HTML file (7860 bytes) retransferred due to lack of cache: homeeat.herokuapp.com/contactUs
+17:11:11	Warning: 	Retry after error 500 () at link homeeat.herokuapp.com/5e1c3dabe1f8d30017d5eabc (from homeeat.herokuapp.com/)
+17:11:12	Error: 	"Not Found" (404) at link homeeat.herokuapp.com/fonts/icomoon/style.css (from homeeat.herokuapp.com/aboutUs)
+17:11:25	Error: 	"Not Found" (404) at link homeeat.herokuapp.com/fonts/flaticon/font/flaticon.css (from homeeat.herokuapp.com/aboutUs)
+17:11:26	Warning: 	HTML file (5081 bytes) retransferred due to lack of cache: homeeat.herokuapp.com/signup
+17:11:31	Warning: 	Retry after error 500 () at link homeeat.herokuapp.com/5e1c3dabe1f8d30017d5eabc (from homeeat.herokuapp.com/)
+17:11:31	Error: 	"Not Found" (404) at link homeeat.herokuapp.com/css/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png (from homeeat.herokuapp.com/css/jquery-ui.css)
+17:11:31	Error: 	"Not Found" (404) at link homeeat.herokuapp.com/css/images/ui-bg_glass_85_dfeffc_1x400.png (from homeeat.herokuapp.com/css/jquery-ui.css)
+17:11:31	Error: 	"Not Found" (404) at link homeeat.herokuapp.com/css/images/ui-bg_glass_75_d0e5f5_1x400.png (from homeeat.herokuapp.com/css/jquery-ui.css)
+17:11:31	Error: 	"Not Found" (404) at link homeeat.herokuapp.com/css/images/ui-bg_inset-hard_100_f5f8f9_1x100.png (from homeeat.herokuapp.com/css/jquery-ui.css)
+17:11:31	Error: 	"Not Found" (404) at link homeeat.herokuapp.com/css/images/ui-bg_glass_95_fef1ec_1x400.png (from homeeat.herokuapp.com/css/jquery-ui.css)
+17:11:31	Error: 	"Not Found" (404) at link homeeat.herokuapp.com/css/images/ui-icons_469bdd_256x240.png (from homeeat.herokuapp.com/css/jquery-ui.css)
+17:11:31	Error: 	"Not Found" (404) at link homeeat.herokuapp.com/css/images/ui-icons_d8e7f3_256x240.png (from homeeat.herokuapp.com/css/jquery-ui.css)
+17:11:31	Error: 	"Not Found" (404) at link homeeat.herokuapp.com/css/images/ui-icons_6da8d5_256x240.png (from homeeat.herokuapp.com/css/jquery-ui.css)
+17:11:31	Error: 	"Not Found" (404) at link homeeat.herokuapp.com/css/images/ui-icons_217bc0_256x240.png (from homeeat.herokuapp.com/css/jquery-ui.css)
+17:11:31	Error: 	"Not Found" (404) at link homeeat.herokuapp.com/css/images/ui-icons_f9bd01_256x240.png (from homeeat.herokuapp.com/css/jquery-ui.css)
+17:11:31	Error: 	"Not Found" (404) at link homeeat.herokuapp.com/css/images/ui-icons_2e83ff_256x240.png (from homeeat.herokuapp.com/css/jquery-ui.css)
+17:11:31	Error: 	"Not Found" (404) at link homeeat.herokuapp.com/css/images/ui-icons_cd0a0a_256x240.png (from homeeat.herokuapp.com/css/jquery-ui.css)
+17:11:31	Error: 	"Not Found" (404) at link homeeat.herokuapp.com/css/owl.video.play.png (from homeeat.herokuapp.com/css/owl.carousel.min.css)
+17:11:31	Error: 	"" (500) after 2 retries at link homeeat.herokuapp.com/5e1c3dabe1f8d30017d5eabc (from homeeat.herokuapp.com/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 4 minutes 26 seconds : 127 links scanned, 160 files written (9603194 bytes overall) [5249711 bytes received at 19735 bytes/sec], 2548855 bytes transferred using HTTP compression in 13 files, ratio 34%, 2.0 requests per connection
+(18 errors, 8 warnings, 0 messages)
